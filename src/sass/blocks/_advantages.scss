@@ -29,5 +29,27 @@
 		text-align: center;
 		color: #0d0d0d;
 		margin-top: 26px;
+		span{
+			display: inline-block;
+			color: red;
+			font-family: 'Museo Moderno';
+		}
 	}
+}
+
+@media (max-width: 970px) {
+	.advantages{
+		&__wrapper {
+			gap: 5px;
+		}
+		&__subtitle{
+			font-size: 17px;
+
+		}
+		&__description{
+			font-size: 12px;
+			margin-top: 27px;
+		}
+	}
+	
 }
